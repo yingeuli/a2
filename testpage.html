@@ -1,0 +1,286 @@
+<!--
+Headings: Use <h1> to <h6> to show hierarchy.
+• Paragraphs and Line Breaks: <p>, <br>.
+• Text Formatting: <strong>, <em>, <u>, <mark>.
+• Lists: One ordered list <ol> and one unordered list <ul> with at least three items each.
+• Links and Images: Add a hyperlink <a> and an image <img>.
+• Tables: Create a simple table with headers and data rows.
+• Forms: Include one text input, one radio button, one checkbox, and a submit button.
+• Semantic Tags: Use <header>, <section>, <article>, <footer> to organize content.-->
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <title>Alice's Smart Tech</title>
+    <link rel="icon" type="image/png" href="https://cdn.iconscout.com/icon/free/png-256/free-technical-icon-svg-download-png-453357.png">
+    <link rel="stylesheet" href="media/css/styles.css">
+
+    <style>
+    
+            .box {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 25px;
+            scale: 80%;
+            }
+
+            .container1 {
+            display: flex;
+            justify-content: center;
+            
+            }
+
+            section {
+            text-align: center;
+            }
+            
+            .footer {
+            border: 2px;
+            background-color:#BFC6C4;
+            padding: 20px;
+            }
+            
+            input {
+                box-sizing: border-box;
+                width: 25%;
+                margin: 10px 0;
+            }
+
+             ul {
+                text-align: center;
+            }
+
+            li {
+                padding: 10px;
+            }
+
+            aside {
+            
+            padding-left: 20px;
+            margin-left: 15px;
+            float: right;
+            text-align: left;
+            background-color: #BFC6C4;
+            padding: 20px;
+}
+
+            article {
+            text-align: left;
+            padding-left: 80px;
+            padding-right: 80px;
+            
+}
+
+            table {
+            margin: 0 auto;
+            padding: 5px
+            
+         }
+
+          th {
+           border:1px solid black;
+            padding: 5px
+            
+         }
+
+         td {
+            
+            padding: 10px
+            
+         }
+         
+    </style>
+
+</head>
+ <body>
+
+
+<nav class ="navigation">
+    <ul>
+        <li><a href="index.html" class ="active">Home</a></li>
+        <li><a href="openinghours.html">Opening Hours</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="testpage.html">Test Page</a></li>
+    </ul>
+</nav>
+<div class ="container">
+<div class ="content">
+        <section> 
+        <h1>About Us</h1>
+        <div class="container1">
+        <div class = "box">
+
+            <h2><u>Our Vision</u></h2>
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-statistic-icon-svg-download-png-917031.png" alt="">
+            <ul> 
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua.</li>
+                <li>Ut enim ad minim veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+                <li> Duis aute irure dolor in reprehenderit in voluptate velit 
+            esse cillum dolore eu fugiat nulla pariatur.</li> </ul>
+
+            </div>
+
+             <div class = "box">
+             <h3><u>Partnerships</u></h3>
+            <img src="https://milwaukeedigitalmarketing.com/wp-content/uploads/2021/08/SSM-icon-1.png" alt="">
+           <ol> 
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua.</li>
+            <li>Ut enim ad minim veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+            <li> Duis aute irure dolor in reprehenderit in voluptate velit 
+            esse cillum dolore eu fugiat nulla pariatur.</li>
+          </ol>
+            </div>
+
+             <div class = "box">
+             <h3><u>Future Projects</u></h3>
+             <img src="https://cdn.iconscout.com/icon/free/png-256/free-telescope-icon-svg-download-png-456360.png" alt="">
+             <p> <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua.</strong> Ut enim ad minim veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit 
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum. Read more <a href="https://www.lipsum.com">here</a></p>
+            </div>
+            </div>
+            </section>
+
+           
+
+        <article>
+            <h2>Weekly Article </h2>
+         <h3>Article 12</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit 
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum.</p>
+
+ <aside> 
+        <h3> Sign Up For Our Newsletter </h3>
+        <div class = "form">
+        <form>
+
+            <label>
+    <input type="text" name="gmail" value="">
+    Enter gmail
+</label>
+<br>
+            <label>
+    <input type="radio" name="newsletter" value="weekly">
+    Weekly Newsletter
+</label>
+<br>
+
+<label>
+    <input type="checkbox" name="agree">
+    I agree to receive emails
+</label>
+<br>
+
+<input type="submit" value="Submit">
+        </form>
+        </div>
+
+    </aside>
+
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+        <br>
+            Duis aute irure dolor in reprehenderit in voluptate velit 
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum.</p>
+    
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit 
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum.</p>
+
+            <p> <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. </em>
+            Duis aute irure dolor in reprehenderit in voluptate velit 
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum.</p>
+
+            <p> <mark> Lorem ipsum dolor sit amet,</mark> consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua. Ut enim ad minim veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit 
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum.</p>
+        </article>
+
+        <section>
+          <h2><u>Other Articles </u></h2>
+
+         <table>
+            <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Date</th>
+            </tr>
+
+            <tr> 
+                <td>Article 12</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua.</td>
+                <td>Mar 1 2026</td>
+            </tr>
+
+            <tr> 
+                <td>Article 11</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua.</td>
+                <td>Feb 12 2026</td>
+            </tr>
+
+             <tr> 
+                <td>Article 10</td>
+                <td> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna 
+            liqua. </td>
+                <td>Jan 20 2026</td>
+            </tr>
+            
+            
+
+        </table>
+     </section>
+
+    <footer class ="footer">
+        <p> @Copyright  </p>
+    </footer>
+
+    </div>
+    </div>
+    </body>
+</html>
+
+
